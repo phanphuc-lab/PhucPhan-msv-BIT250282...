@@ -1,0 +1,10 @@
+def giai_thua(n):
+    if n < 0:
+        return "số âm không có giai thừa"
+    elif n == 0 or n == 1:
+        return 1
+    else:
+        return n * giai_thua(n-1)
+n =int(input("nhập số nguyên dương"))
+ket_qua = giai_thua(n)
+print(f"giai thừa của {n} là: {ket_qua}")
