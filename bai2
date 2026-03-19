@@ -1,0 +1,6 @@
+s = input("nhập chuỗi:")
+ky_tu= input("nhập các ký tự cần đếm")
+if len(ky_tu) !=1:
+    ky_tu = ky_tu[0]
+dem = s.count(ky_tu)
+print(f"số lần xuất hiện: {dem}")
