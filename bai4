@@ -1,0 +1,6 @@
+n = input("nhập một chuỗi vào đây")
+if n == "":
+    print("vui lòng không để khoảng trống")
+else:
+    do_dai = len(n)
+print(f"độ dài của chuỗi là: {do_dai}")
